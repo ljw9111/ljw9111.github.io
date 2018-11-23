@@ -1407,8 +1407,8 @@ var OrderService = /** @class */ (function () {
         return this.order;
     };
     OrderService.prototype.placeOrder = function () {
-        //this.http.get('square/v2/customers', httpOptions).subscribe((data: any[]) => {
-        this.http.get('https://connect.squareup.com/v2/customers', httpOptions).subscribe(function (data) {
+        this.http.get('square/v2/customers', httpOptions).subscribe(function (data) {
+            //this.http.get('https://connect.squareup.com/v2/customers', httpOptions).subscribe((data: any[]) => {
             console.log(data);
         }, function (error) { console.log(error); });
         var newClient = {
@@ -1427,8 +1427,8 @@ var OrderService = /** @class */ (function () {
             "reference_id": "YOUR_REFERENCE_ID",
             "note": "a customer"
         };
-        //this.http.post('square/v2/customers', newClient, httpOptions).subscribe((data: any[]) => {
-        this.http.post('https://connect.squareup.com/v2/customers', newClient, httpOptions).subscribe(function (data) {
+        this.http.post('square/v2/customers', newClient, httpOptions).subscribe(function (data) {
+            //this.http.post('https://connect.squareup.com/v2/customers', newClient, httpOptions).subscribe((data: any[]) => {
             console.log(data);
         }, function (error) { console.log(error); });
     };
