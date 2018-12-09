@@ -1,0 +1,51 @@
+/* See <http://html-color-codes.info/> for css colors */
+#layout-content { margin-top: 1.5em; margin-bottom: 2.0em; }
+body { font-family: Lato, Helvetica, Arial, Dotum, sans-serif; /* Georgia, 'Times New Roman', 'Nanum Gothic Coding', serif; */
+       font-size: 15px;
+       line-height: 110%;
+       max-width: 650px;      /******/
+       margin: 0 auto 0 auto; /******/ }
+div#footer { font-size: 14px; margin-top: 1.0em; color: black;
+	     float:right; text-align:right; border-top: 0px solid gray; }
+
+strong  { font-weight: bold; color: black; } /* font-weight: bold; 800080 */
+em      { font-style: italic; }
+a,       div#footer a       { color: #2255DD; }
+a:hover, div#footer a:hover { color: #229911; text-decoration: none; border-bottom: 1px solid #229911; } /* #4b8d22 */ 
+/* a:visited { color: #1122BB; #802080; } */
+/* a:active  { color: #1122BB; } */
+
+h1, h2, h3, h4
+   { /* font-family: Arial, Helvetica, Dotum, sans-serif; */
+     font-weight: bold;
+     color: black; }  /* #111177; #08086A; #3333aa; */
+/* h2:hover, h3:hover, h4:hover { color: #117711; } /* #088A08; */
+h1 { font-size: 220%; border-bottom: none; } /* border-bottom: 1px solid gray; font-variant: small-caps; */
+h2 { font-size: 150%; border-bottom: none; } /* border-bottom: 1px solid gray; font-variant: small-caps; */
+h3 { font-size: 120%; /*color: #3333aa; border-bottom: 1px solid gray;*/ }
+h4 { font-size: 110%; color: #3333aa; margin-top: 0.7em; margin-bottom: 0.3em; }
+h2 h4 { padding-top: 0.0em; }
+
+ul li, dd    { margin-bottom:  7px; }
+ol li        { margin-bottom: 14px; }
+li ul, li ol { margin-top:   7px; }
+ul     { list-style-type: disc; margin-left: -10px; }
+ol     { margin-left: -10px; }
+ul ul  { list-style-type: circle; }
+li p   { margin: 0px; }
+li p.r { clear: both; float: right; text-align: right; width: 20%; font-size: 100%; }
+
+.glyphicon-none:before { content: "\e094"; visibility: hidden; }
+
+table { border: 0px; }
+td    { border: 0px; text-align: left; }
+#myimg { width: 26%; float: right; }
+
+/*
+em { font-style: normal; font-weight: 600; color: #226d2b; }
+li p, dd p   { margin-bottom: 0.15em; }
+div#toptitle { margin-bottom: 1.3em; border-bottom: 1px solid #c0c0c0; }
+h1, h2, h3, #layout-menu a.current:link, #layout-menu a.current:visited { color: #203060; }
+div.blocktitle { color: #203070; }
+div.blockcontent { border: 1px solid #c0c0c0; }
+*/
